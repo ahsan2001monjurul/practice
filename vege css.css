@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +13,11 @@
 }
 body{
 
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 /*-------header----------*/
+
 .main-head{
     width: 100%;
     background-color: var(--color1);
@@ -70,4 +72,72 @@ body{
 .search i , .cart i{
  
         font-size: 1.2em;
+}
+
+/*----------bgcontainerpic-------------*/
+
+.bgpic-container{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0,0,0,0.5)) , url('./small veg/bgcontainer.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bgpart{
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+  
+    color: var(--color1);  
+    font-size: 3.6em;
+    font-weight: 600;
+}
+.para{
+    color: var(--color1);
+    font-size: 1.1em;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: .5px;
+}
+.button-container{
+    margin-top: 20px;
+    
+}
+.button-container :hover{
+    color: var(--color1);
+    border: 2.5px solid var(--color1);
+
+}
+.one{
+    color: var(--color1);
+    background-color: transparent;
+    border: 2px solid var(--color1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 10px 60px;
+    margin-right: 3px;
+    border-radius: 4px;
+}
+.two{
+    color: var(--color1);
+    background-color: transparent;
+    border: 2px solid var(--color1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 10px 60px;
+    margin-left: 3px;
+    border-radius: 4px;
 }
