@@ -169,12 +169,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .veg img{
 
         width: 100%; 
         height: 350px;
         object-fit: cover;
+        transition: 600ms;
+}
+.veg:hover img{
+    transform: scale(1.05);
 }
 .content{
 
@@ -229,11 +234,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .veg2 img{
     width: 100%;
     height: 350px;
     object-fit: cover;
+    transition: 1.2s;
+}
+.veg2:hover img{
+    transform: scale(1.04);
 }
 .sale2{
 
